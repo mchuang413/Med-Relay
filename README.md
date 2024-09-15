@@ -1,4 +1,4 @@
-# MedRelay 🚑🏥👨‍⚕️👩‍⚕️
+# MedRelay 🚑🏥👨‍⚕️👩‍⚕️ [Project Start Date: 7/31/2024]
 MedRelay is a platform designed to revolutionize healthcare communication by streamlining the exchange of critical information between ambulances and hospitals. By integrating advanced AI technologies into our app, we enhance the speed and accuracy of emergency responses, therefore helping healthcare professionals make informed decisions swiftly and effectively, saving lives.
 
 ## Inspiration
@@ -21,7 +21,12 @@ Our goal was to develop a platform that not only bridges communication gaps but 
 
 ### Demo
 
-Watch our demo video to see MedRelay in action:
+- Watch our demo video to see MedRelay in action:
+- Access our website here: https://main.d2e1li3e1k0bd0.amplifyapp.com/ 
+
+### Important Side Notes
+- Currently, the application is directly linked to mchuang413's personal MongoDB Database. Please change the MongoDB URL located in "app.py" under the server directory if you wish to use your own database.
+- The BACKEND of this application MUST BE hosted LOCALLY as all requests to the backend directly request to localhost:5000. Please make sure you run the python script ("app.py" under the server directory) for the frontend to respond properly.
 
 ## Challenges Faced
 
